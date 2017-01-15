@@ -1,0 +1,2 @@
+view1_hobby
+diving_first
