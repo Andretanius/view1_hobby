@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Хобби</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link href="school_of_fish.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+  <header class="header_top">
+    <div id="ontop" class="logo">
+     <div class="spin">
+      <figure class="box box-1"><a href="http://sevenlogiks.zzz.com.ua" target="_blank">
+          <img src="images/logo3.png" width="90" height="90" alt="logo" title="Логотипчик">
+        </a>
+      </figure>
+      </div>
+      </div>
+    <nav class="main-menu">
+      <ul>
+        <li>
+          <a href="index.html">Главная</a>
+        </li>
+        <li>
+          <a href="gallery.html">Галерея</a>
+        </li>
+        <li>
+          <a href="map.html">Карты и маршруты</a>
+        </li>
+        <li>
+          <a href="equipment.html">Снаряжение</a>
+        </li>
+        <li>
+        <a href="vacation.html">Места отдыха</a>
+        </li>
+      </ul>
+      <form class="search">
+        <p>
+          <input class="searches" type="search" name="q" placeholder="Поиск по сайту">
+          <input class="searches" type="submit" value="Найти"></p>
+      </form>
+    </nav>
+  </header>
+
+<main>
+<div class="satellite_map">
+  <h1>Спутниковая карта</h1>
+  <p class="water">В этом разделе с помощью сервиса Google-Карты, Вы сможете осуществить поиск интересующего Вас водоёма
+  </p>
+</div>  
+<div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d352019.42209565477!2d30.657000734983527!3d46.4258719938578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0L7QtNC10YHRgdCwINGH0ZHRgNC90L7QtSDQvNC-0YDQtQ!5e0!3m2!1sru!2sua!4v1483810409596" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<div class="picture">
+<img src="images/maps.jpg" alt="divew" title="Вниз по течению">
+</div>
+
+  </main>
+  <footer class="page-footer">
+    <div class="copyright">
+      <p>&copy; 2017 Website created by Sevenlogiks -
+      <a href="http://sevenlogiks.zzz.com.ua" target="_blank" rel="nofollow">sevenlogiks.zzz.com.ua</a>
+      </p>
+    </div>
+     <div class="social-icons">
+    <a href="#" class="vk-ico icons"></a>
+    <a href="#" class="fb-ico icons"></a>
+    <a href="#" class="tw-ico icons"></a>
+    </div>
+    <p>
+      <a href="#top">Наверх</a>
+    </p>
+  </footer>
+<script src="script.js"></script>
+</body>
+<script type="text/javascript">
+      window.onload = function() {
+        var el1 = document.getElementsByClassName("cbalink")[0];
+        var el2 = document.getElementsByClassName("cumf_bt_form_wrapper")[0];
+        if (!!el1.parentNode) el1.parentNode.removeChild(el1);
+        if (!!el2.parentNode) el2.parentNode.removeChild(el2);
+      };
+    </script>
+</html>

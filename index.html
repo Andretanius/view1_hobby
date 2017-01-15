@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Хобби</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link href="school_of_fish.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+  <header class="header_top">
+    <div id="ontop" class="logo">
+      <div class="spin">
+      <figure class="box box-1">
+          <img src="images/logo3.png" width="90" height="90" alt="logo" title="Логотипчик">
+      </figure>
+      </div>
+    </div>
+    <nav class="main-menu">
+      <ul>
+        <li>
+          <a href="index.html">Главная</a>
+        </li>
+        <li>
+          <a href="gallery.html">Галерея</a>
+        </li>
+        <li>
+          <a href="map.html">Карты и маршруты</a>
+        </li>
+        <li>
+          <a href="equipment.html">Снаряжение</a>
+        </li>
+        <li>
+        <a href="vacation.html">Места отдыха</a>
+        </li>
+      </ul>
+      <form class="search">
+        <p>
+          <input class="searches" type="search" name="q" placeholder="Поиск по сайту">
+          <input class="searches" type="submit" value="Найти"></p>
+      </form>
+    </nav>
+  </header>
+  <main>
+    <article class="about-me">
+      <section class="my_prof">
+        <h2>Моё увлечение дайвинг</h2>
+        <p>
+          Здесь я хотел бы рассказать вам о своём хобби и некоторых его особенностях
+        </p>
+        <p>
+          <small>
+            Живу я в Одессе, ныряю с детства в Черном море, р.Днепр, р.Южный Буг
+                и других водоёмах Украины
+          </small>
+        </p>
+        <img class="diver" src="images/diver.png" alt="diver" title="Это дайвер"></section>
+      <aside class="last-actions">
+        <div class="dive_winter">
+          <p>
+            Время в воде в зимний и летний период времени зависит от толщины костюма, для этого есть таблицы толщин и температур.
+          </p>
+          <p>
+            То, как быстро вы замерзаете,зависит не только от гидрокостюма, но и температуры воды, продолжительности погружения, вашей физической формы и формы вашего тела.
+          </p>
+        </div>
+        <img class="diver diver1" src="images/dive_winter.jpg" alt="divew" title="Зимой холодно">
+        </aside>
+    </article>
+    <section class="posts">
+      <article class="featured-post">
+        <header>
+          <h1>
+            <a href="#post-1">Подбор гидрокостюма</a>
+          </h1>
+        </header>
+        <section>
+          <p>Таблица размеров гидрокостюма</p>
+        </section>
+        <table border="1">
+          <tr>
+            <th>Размер гидрокостюма</th>
+            <th>РОСТ, см</th>
+            <th>ОБХВАТ ГРУДИ, см</th>
+            <th>ОБХВАТ ТАЛИИ, см</th>
+            <th>ОБХВАТ БЕДЕР, см</th>
+          </tr>
+          <tr>
+            <td>2/S/48</td>
+            <td>171-176</td>
+            <td>92</td>
+            <td>78</td>
+            <td>90</td>
+          </tr>
+          <tr>
+            <td>3/M/50</td>
+            <td>176-181</td>
+            <td>100</td>
+            <td>84</td>
+            <td>96</td>
+          </tr>
+          <tr>
+            <td>4/L/54</td>
+            <td>181-186</td>
+            <td>108</td>
+            <td>90</td>
+            <td>102</td>
+          </tr>
+          <tr>
+            <td>5/XL/56</td>
+            <td>186-191</td>
+            <td>116</td>
+            <td>96</td>
+            <td>108</td>
+          </tr>
+          <tr>
+            <td>6/XXL/58</td>
+            <td>191-196</td>
+            <td>124</td>
+            <td>102</td>
+            <td>114</td>
+          </tr>
+        </table>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eJHgzPKCYSI" frameborder="0" allowfullscreen ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/92jMreNTUqU" frameborder="0" allowfullscreen></iframe>
+      </article>
+      <form class="select" action="select1.php" method="post">
+        <p>Выберите размер гидрокостюма</p>
+        <p>
+          <select size="4" multiple name="size">
+            <option disabled>Выберите ваш размер гидрокостюма</option>
+            <option value="2">2/S/48</option>
+            <option selected value="3">3/M/50</option>
+            <option value="4">4/L/54</option>
+            <option value="5">5/XL/56</option>
+            <option value="6">6/XXL/58</option>
+          </select>
+        </p>
+        <p>
+          <input type="submit" value="Отправить"></p>
+
+      </form>
+      <div class="put_on">
+        <p>Как правильно снять гидрокостюм</p>
+        <img  src="images/put_suit.png" alt="put_on"></div>
+    </section>
+    <section class="posts">
+      <article class="featured-post">
+        <header>
+          <h1>
+            <a href="#post-1">Многодневные серии погружений</a>
+          </h1>
+        </header>
+        <section>
+          <p>Таблица учёта накопившегося азота в организме дайвера</p>
+        </section>
+        <table border="1">
+          <tr>
+            <th>Глубина (метры)</th>
+            <th>Первый день погружений</th>
+            <th>Следующий день погружений</th>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>14ч.07мин.</td>
+            <td>7ч.55мин.</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>4ч.23мин.</td>
+            <td>7ч.58мин.</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>2ч.36мин.</td>
+            <td>3ч.36мин.</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>1ч.51мин.</td>
+            <td>2ч.03мин.</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>1ч.19мин.</td>
+            <td>1ч.19мин.</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>55 мин.</td>
+            <td>55 мин.</td>
+          </tr>
+        </table>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cO9xHaoRmG4" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bUZNm-nEpnY" frameborder="0" allowfullscreen></iframe>
+      </article>
+    </section>
+    <section class="sec_form">
+      <form class="form" name="choice" method="post" action="input1.php">
+        <p> <b>Ваше имя:</b>
+          <br/>
+          <input type="text" size="40"></p>
+        <p> <b>Выберите какой вид погружения вам
+            <br/>
+            больше всего нравиться:</b> 
+          <br/>
+          <input type="radio" name="browser" value="ie">
+          Freediving
+          <br/>
+          <input type="radio" name="browser" value="opera">
+          Diving
+          <br/>
+          <input type="radio" name="browser" value="firefox">
+          Snorkeling
+          <br/>
+        </p>
+        <p>
+          Комментарий
+          <br/>
+          <textarea name="comment" cols="40" rows="3"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Отправить">
+          <input type="reset" value="Очистить"></p>
+      </form>
+
+      <div class="divers">
+        <img src="images/freediving4.jpg" alt="freediving" class="diver4" title="Freediving">
+        <img src="images/diving4.jpg" alt="diving" class="diver4" title="Diving ">
+        <img src="images/snorkling4.jpg" alt="snorkling" class="diver4" title="Snorkeling"></div>
+    </section>
+
+    <div class="container_12">
+      <article class="content-box">
+        <h2 class="hp-1">Виды погружений</h2>
+        <div class="wrapper">
+          <div class="col-1">
+            <figure class="img-box">
+              <img src="images/freediving.jpg" alt="freedive">
+              <figcaption>
+                <h3 class="al">Freediving</h3>
+                <p>
+                  Фридайвинг — подводное плавание на задержке дыхания. Эта самая ранняя форма подводного плавания до сих пор практикуется как в спортивных, так и в коммерческих целях.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-1">
+            <figure class="img-box">
+              <img src="images/diving1.jpg" alt="dive">
+              <figcaption>
+                <h3 class="al">Diving</h3>
+                <p>
+                  Дайвинг — это плавание под водой с аппаратами, обеспечивающими запас воздуха для дыхания под водой от нескольких минут до 12 и более часов.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-2">
+            <figure class="img-box">
+              <img src="images/snorkling.jpg" alt="snork">
+              <figcaption>
+                <h3 class="al">Snorkeling</h3>
+                <p>
+                  Сноркелинг — вид плавания под поверхностью воды с маской и дыхательной трубкой и, обычно, с ластами.
+                Сноркелинг - наблюдение за подводной жизнью в её среде.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+    </div>
+    <p class="link_frame"><a href="frame.html" target="_blank">Переход на другие ресурсы</a></p>
+  </main>
+
+  <footer class="page-footer">
+    <div class="copyright">
+      <p>&copy; 2017 Website created by Sevenlogiks -
+      <a href="http://sevenlogiks.zzz.com.ua" target="_blank" rel="nofollow">sevenlogiks.zzz.com.ua</a>
+      </p>
+    </div>
+    <div class="social-icons">
+    <a href="#" class="vk-ico icons"></a>
+    <a href="#" class="fb-ico icons"></a>
+    <a href="#" class="tw-ico icons"></a>
+    </div>
+    <!-- <ul class="social-list">
+      <li>
+        <a href="https://twitter.com" target="_blank">
+          <img src="images/soc-icon-1.png" alt="Twitter"></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="images/soc-icon-2.png" alt="Facebook"></a>
+      </li>
+      <li>
+        <a href="https://www.whatsapp.com/" target="_blank">
+          <img src="images/soc-icon-3.png" alt="WhatsApp"></a>
+      </li>
+    </ul> 
+    <ul class="social-list">
+      <li>
+        <a class="icon-soc_icon_1" href="https://twitter.com" target="_blank">
+          <img src="images/soc-icon-1.png" alt="Twitter"> </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="images/soc-icon-2.png" alt="Facebook"></a>
+      </li>
+      <li>
+        <a href="https://www.whatsapp.com/" target="_blank">
+          <img src="images/soc-icon-3.png" alt="WhatsApp"></a>
+      </li>
+    </ul>-->
+    <p>
+      <a href="#top">Наверх</a>
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+  <script type="text/javascript">
+      window.onload = function() {
+        var el1 = document.getElementsByClassName("cbalink")[0];
+        var el2 = document.getElementsByClassName("cumf_bt_form_wrapper")[0];
+        if (!!el1.parentNode) el1.parentNode.removeChild(el1);
+        if (!!el2.parentNode) el2.parentNode.removeChild(el2);
+      };
+    </script>
+</html>

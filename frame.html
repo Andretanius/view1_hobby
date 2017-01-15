@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Фрейм</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link href="school_of_fish.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+	<div class="frame">
+		<iframe width="47%" height="90%" src="http://sevenlogiks.zzz.com.ua" frameborder="0" allowfullscreen></iframe>
+		<iframe width="47%" height="90%" src="http://www.w3schools.com/" frameborder="0" allowfullscreen></iframe>
+    
+		<noframes>Ваш браузер не поддерживает отображение фреймов</noframes>
+	</div>	
+</body>
+<script type="text/javascript">
+  window.onload = function() {
+    var el1 = document.getElementsByClassName("cbalink")[0];
+    var el2 = document.getElementsByClassName("cumf_bt_form_wrapper")[0];
+    if (!!el1.parentNode) el1.parentNode.removeChild(el1);
+    if (!!el2.parentNode) el2.parentNode.removeChild(el2);
+  };
+</script>
+</html>
